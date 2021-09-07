@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+    min-height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.headerImage {
+    background-image: url(../images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    min-height: 160px;
+    width: 100%;
+}
+
+.card {
+    width: 327px;
+    height: 567px;
+    margin: 0 auto;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.15);
+}
+
+#title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+#content {
+    font-size: 13px;
+}
+
+#selection_box {
+    justify-content: space-evenly;
+    width: 279px;
+    height: 81px;
+    align-items: center;
+    background-color: #f7f9ff;
+    border-radius: 11px;
+    margin: 1rem auto;
+}
+
+#selected_plan h2 {
+    font-size: 14px;
+}
+
+#selected_plan span {
+    color: rgb(113, 127, 166, 100);
+}
+
+.flex {
+    display: flex;
+}
+
+#proceed {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3829e0;
+    border-radius: 11px;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    transition: hover ease-in-out;
+    box-shadow: 0 20px 20px 0px rgba(13, 48, 189, 0.15);
+    text-align: center;
+    width: 279px;
+    height: 50px;
+}
+
+#change {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#cancel {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: gray;
+}
+
+p {
+    line-height: 26px;
+    font-weight: 600;
+    color: rgb(113, 127, 166, 100);
+    padding: 0 20px;
+    text-align: center;
+}
+
+footer {
+    font-size: 15px;
+}
