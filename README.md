@@ -12,3 +12,4 @@ This repo consist of challenges from [Frontend Mentor.](https://www.frontendment
 
 
 - Tip Calculator App 
+  - [Repo](https://github.com/MayankShrivastava17/Frontend-Mentor/tree/main/tip-calculator-app-main) | [Deployment](https://tip-calculator-app.surge.sh/)
