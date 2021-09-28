@@ -2,4 +2,4 @@
 
 A tip calculator from [Frontent Mentor](https://www.frontendmentor.io/), made using HTML, CSS and JavaScript.
 
-[Live Demo](tip-calculator-app.surge.sh)
+[Live Demo](https://tip-calculator-app.surge.sh)
